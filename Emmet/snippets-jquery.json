@@ -1,0 +1,8 @@
+{
+
+	"javascript": {
+		"snippets": {
+			"$": "\\$('${1:string/element/array/function/jQuery object/string, context}')$0"
+		}
+	}
+}

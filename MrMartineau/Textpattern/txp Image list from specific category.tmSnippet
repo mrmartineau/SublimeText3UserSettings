@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:wet_for_each_image category="${1:image-category}" wraptag="ul" break="li" class="press" sort="id desc"&gt;
+	&lt;txp:upm_image image_id="{id}" form="${2:-img-cats}"/&gt;
+&lt;/txp:wet_for_each_image&gt;
+&lt;!-- -img-press-coverage-thumb Form --&gt;
+&lt;txp:php&gt;
+	$path = parse('&lt;txp:site_url /&gt;image.php?width=246&amp;quality=85&amp;image=&lt;txp:upm_img_full_url /&gt;');
+	list($width, $height, $type, $attr) = getimagesize($path);
+	variable(array(
+		'name' =&gt; 'width',
+		'value' =&gt; $width
+	));
+	variable(array(
+		'name' =&gt; 'height',
+		'value' =&gt; $height
+	));
+&lt;/txp:php&gt;
+&lt;img src="&lt;txp:site_url /&gt;image.php?width=246&amp;amp;quality=85&amp;amp;image=&lt;txp:upm_img_full_url /&gt;" alt="&lt;txp:upm_img_alt /&gt;" height="&lt;txp:variable name="height" /&gt;" width="&lt;txp:variable name="width" /&gt;"/&gt;
+&lt;h3&gt;&lt;txp:upm_img_alt /&gt;&lt;/h3&gt;
+&lt;txp:upm_img_caption wraptag="p"/&gt;</string>
+	<key>name</key>
+	<string>txp Image list from specific category</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>7053DACD-8169-4702-A514-2CB6118B1819</string>
+</dict>
+</plist>
