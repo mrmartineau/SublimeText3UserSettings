@@ -1,0 +1,38 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"Auto Semi-Colon",
+		"Case Conversion",
+		"Color Highlighter",
+		"CursorRuler",
+		"EditorConfig",
+		"Emmet",
+		"FindKeyConflicts",
+		"Inc-Dec-Value",
+		"jQuery",
+		"Line Completion",
+		"Modific",
+		"MoveText",
+		"Nettuts+ Fetch",
+		"Open-Include",
+		"Package Control",
+		"ReadmePlease",
+		"RegReplace",
+		"SASS Snippets",
+		"SCSS",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"SublimeBlockCursor",
+		"SublimeLinter",
+		"SublimeLinter Beta",
+		"SublimeTODO",
+		"TernJS",
+		"TextCommands",
+		"Theme - Flatland",
+		"Theme - Phoenix",
+		"Theme - Soda",
+		"Wind"
+	]
+}
