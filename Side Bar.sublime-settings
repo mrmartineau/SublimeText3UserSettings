@@ -1,3 +1,6 @@
 {
-	"version": "11.13.2012.1305.0"
+	"version": "11.13.2012.1305.0",
+
+	"statusbar_file_size" : true,
+	"hide_open_with_entries_when_there_are_no_applicable" : true
 }

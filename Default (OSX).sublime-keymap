@@ -24,9 +24,6 @@
 	// Small comment block shortcut
 	{ "keys": ["ctrl+shift+x"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}"}},
 
-	//JS Format
-	{ "keys": ["ctrl+shift+f"], "command": "js_format"},
-
 	// Move Text
 	{ "keys": ["super+ctrl+left"], "command": "move_text_left" },
 	{ "keys": ["super+ctrl+right"], "command": "move_text_right" },
@@ -42,8 +39,19 @@
 	{ "keys": ["alt+ctrl+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
 	{ "keys": ["alt+ctrl+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
 	{ "keys": ["alt+ctrl+3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
-	{ "keys": ["alt+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} }
+	{ "keys": ["alt+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
 
+	// Inc/dec
+	{ "keys": ["super+alt+shift+up"],   "command": "inc_dec_value", "args": { "action": "inc_all" } },
+	{ "keys": ["super+alt+shift+down"], "command": "inc_dec_value", "args": { "action": "dec_all" } },
 
-
+	// These are overwriting some other commands
+	{ "keys": ["f12"],
+		"command": "cv" ,
+		"args":{"paths":[], "type":"testing"}
+	},
+	{ "keys": ["alt+f12"],
+		"command": "cv",
+		"args":{"paths":[], "type":"production"}
+	}
 ]
