@@ -45,7 +45,7 @@
 			"tr"           : "@include transition(${1:all 0.2s ease-in-out});$0",
 			"us"           : "@include user-select(${1:none});$0",
 			"va"           : "@include vertical-align(${1:50px});$0",
-			"hd"           : "@include hidpi(${1:1.5}){\n\t$2\n};$0",
+			"hd"           : "@include hidpi(${1:1.5}){\n\t$2\n};$0"
 			// ""           : "",
 		}
 	},
