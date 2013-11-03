@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_id_class": true,
@@ -25,13 +25,14 @@
 	"bold_folder_labels": true,
 	"caret_style": "wide",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Color Schemes - Zander/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
@@ -41,24 +42,28 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_face": "SourceCodePro-Semibold",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 17.0,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"HTML5",
+		"Idiomatic-Comments-Snippets",
+		"Kickoff-snippets",
+		"Open-Include",
+		"Wind",
+		"Vintage",
 		"SublimeLinter",
-		"SublimeBlockCursor",
-		"All Autocomplete",
-		"Modific",
-		"Vintage"
+		"List Stylesheet Variables"
 	],
 	"indent_guide_options":
 	[
@@ -66,7 +71,6 @@
 	],
 	"indent_subsequent_lines": false,
 	"indent_to_bracket": true,
-	"inverse_cursor_state": true,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"match_brackets_angle": true,
@@ -87,5 +91,5 @@
 	"theme": "Phoenix Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": "true"
 }

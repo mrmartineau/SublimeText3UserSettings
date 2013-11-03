@@ -6,17 +6,8 @@
 
 	"css": {
 		"snippets": {
-			// "bg"           : "background: #${1:f2f2f2} url("/img/${2:/ui/}$3") ${4:left} ${5:top} ${6:no-repeat};$0",
+			"bg"           : "background: ${1:#f2f2f2} url('/img/${2:/ui/}$3') ${4:left} ${5:top} ${6:no-repeat};$0",
 			"mq"           : "/* === $1> === */\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n/* === end $1> === */"
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
-			// ""           : "",
 			// ""           : "",
 		}
 	},
@@ -24,25 +15,67 @@
 	"scss": {
 		"extends": "css",
 		"snippets": {
-			"br"           : "@include border-radius(${1:5px});$0",
-			"bs"           : "@include box-shadow(${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)});$0",
-			"bgs"          : "@include background-size(${:cover});$0",
-			"box"          : "@include box-sizing(${1:border-box});$0",
-			"fs"           : "@include font-size(${1:16});$0",
-			"gh"           : "@include gradient-horizontal(${1:#555} ${2:#333});$0",
-			"gv"           : "@include gradient-vertical(${1:#555} ${2:#333});$0",
-			"lh"           : "@include line-height(${1:16});$0",
-			"mq"           : "// === $1> ===\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n// === end $1> ===",
-			"op"           : "@include opacity(${1:60});$0",
-			"rm"           : "// === <$1 ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===",
-			"rm"           : "// === <$1 ===\n@include respond-min(${1:768px}) {\n\t$0\n}\n// === end <$1 ===",
-			"rmm"           : "// === <$1 ===\n@include respond-min-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===",
-			"size"           : "@include size(${1:10}px,${2:10}px);$0",
-			"sq"           : "@include square(${1:50}px);$0",
-			"tr"           : "@include transition(${1:all 0.2s ease-in-out});$0",
-			"us"           : "@include user-select(${1:none});|",
-			"va"           : "@include vertical-align(${1:50px});|"
+			"bg"               : "background: ${1:#f2f2f2} url('${2:#{\\$img-path\\}}${3:/ui/}') ${4:left} ${5:top} ${6:no-repeat};$0",
+			"br"               : "@include border-radius(${1:5px});$0",
+			"bs"               : "@include box-shadow(${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)});$0",
+			"bgs"              : "@include background-size(${1:cover});$0",
+			"box"              : "@include box-sizing(${1:border-box});$0",
+			"fs"               : "@include font-size(${1:16});$0",
+			"lh"               : "@include line-height(${1:16});$0",
+			"lg"               : "@include linear-gradient(${1:top/left}, ${2:#1e5799 0%}, ${3:#2989d8 50%});$0",
+			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $fallback: ${3:red});$0",
+			"mq"               : "// === $1> ===\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n// === end $1> ===",
+			"op"               : "@include opacity(${1:60});$0",
+			"pf"               : "@include prefixer(${1:property}, $arg, ${2:webkit moz ms o spec});$0",
+			"rm"               : "\n// === <$1 ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rm"               : "\n// === <$1 ===\n@include respond-min(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmm"              : "\n// === <$1 ===\n@include respond-min-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"size"             : "@include size(${1:10}px,${2:10}px);$0",
+			"sq"               : "@include square(${1:50}px);$0",
+			"trans"            : "@include transition(${1:all 200ms ease-in-out});$0",
+			"us"               : "@include user-select(${1:none});$0",
+			"va"               : "@include vertical-align(${1:50px});$0",
+			"hd"               : "@include hidpi(${1:1.5}){\n\t$2\n};$0",
+			"cols"             : "@include content-columns(${1:1 (column count)},${2:20px (column gap)}30px);",
+			"tr"               : "@include transform($0);",
+			"scale"            : "@include scale(${1:1.2});",
+			"rotate"           : "@include rotate(${1:2deg});",
+			"skew"             : "@include skew(${1:2deg} ${2:3deg});",
+			"translate"        : "@include translate(${1:x} ${2:y});",
+			"translate3d"      : "@include translate3d(${1:x} ${2:y} ${2:z});",
+			"transform-origin" : "@include transform-origin(${1:center} ${2:center});",
+			"anim"             : "@include animation($0);",
+			"hyphens"          : "@include hyphens(${1:auto});",
 			// ""           : "",
+
+			// Vars
+			"ko-bfs"      : "\\$base-font-size",
+			"ko-sans"     : "\\$sans-font-family",
+			"ko-serif"    : "\\$serif-font-family",
+			"ko-mono"     : "\\$mono-font-family",
+			"ko-alt"      : "\\$alt-font-family",
+			"ko-headings" : "\\$headings-font-family",
+			"ko-hfw"      : "\\$headings-font-weight",
+			"ko-bn"       : "\\$breakpoint-narrow",
+			"ko-bm"       : "\\$breakpoint-mid",
+			"ko-bw"       : "\\$breakpoint-wide",
+			"ko-bh"       : "\\$breakpoint-huge",
+			"ko-bsc"      : "\\$breakpoint-single-col",
+			"ko-imgp"     : "\\$img-path",
+			"ko-uip"      : "\\$img-ui-path",
+			"ko-cp"       : "\\$color-primary",
+			// ""           : "",
+
+			// Classnames
+			"ko-un"      : ".unstyled",
+			"ko-formh"   : ".form--horizontal",
+			"ko-formi"   : ".form--inline",
+			"ko-formcg"  : ".form-controlGroup",
+			"ko-formcgl" : ".form-controlGroup-label",
+			"ko-formcgi" : "form-controlGroup-input",
+			"ko-fw"      : ".fileWrapper",
+			"ko-input"   : ".input--",
+			"ko-forma"   : ".form-actions"
 			// ""           : "",
 		}
 	},
@@ -50,36 +83,31 @@
 	"html": {
 		"extends": "html",
 		"snippets": {
-			"cols"           : "<div class=\"row\">\n\t<div class=\"span-${1:6} col\">\n\t\t$3\n\t</div>\n\t<div class=\"span-${2:6} col\">\n\t\t$4\n\t</div>\n</div>$0",
-			"col"           : "<div class=\"span-${1:12} col\">\n\t$2\n</div>$0",
-			"f"           : "<form action=\"#\"${1: class=\"form-horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>${3:Your form}</legend>\n\t\t|\n\t</fieldset>}\n</form>",
-			"fi"           : "<li class=\"control-item\">\n\t<label for=\"${1:name}\" class=\"control-label\">${2:Label}</label>\n\t<div class=\"control-input\">\n\t\t<input type=\"${3:text}\" id=\"$1\"${4: placeholder=\"Placeholder text\"} />\n\t</div>\n</li>$0",
-			"fg"           : "<ul class=\"control-group\">\n\t<li class=\"control-item\">\n\t\t<label for=\"name\" class=\"control-label\">Name</label>\n\t\t<div class=\"control-input\">\n\t\t\t<input type=\"text\" id=\"name\" placeholder=\"Zander Martineau\" />\n\t\t</div>\n\t</li>\n\t<li class=\"control-item\">\n\t\t<label for=\"email\" class=\"control-label\">Email</label>\n\t\t<div class=\"control-input\">\n\t\t\t<input type=\"email\" id=\"email\" placeholder=\"zmartineau@tmw.co.uk\" />\n\t\t</div>\n\t</li>\n\t<li class=\"control-item\">\n\t\t<label for=\"phone\" class=\"control-label\">Phone</label>\n\t\t<div class=\"control-input\">\n\t\t\t<input type=\"number\" id=\"phone\" placeholder=\"020 123 4567\" />\n\t\t</div>\n\t</li>\n\t<li class=\"control-item\">\n\t\t<label for=\"comments\" class=\"control-label\">Comments</label>\n\t\t<div class=\"control-input\">\n\t\t\t<textarea id=\"comments\" rows=\"3\" cols=\"50\" class=\"input-xlarge\"></textarea>\n\t\t</div>\n\t</li>\n</ul>",
+
+			// Two grd columns
+			"cols"           : "<div class=\"g-row\">\n\t<div class=\"g-span${1:6} g-col\">\n\t\t$3\n\t</div>\n\t<div class=\"g-span${2:6} g-col\">\n\t\t$4\n\t</div>\n</div>$0",
+
+			// One grid column
+			"col"           : "<div class=\"g-span${1:12} g-col\">\n\t$2\n</div>$0",
+
+			// Form
+			"f"           : "<form action=\"#\"${1: class=\"form--horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>Your form</legend>}\n\t\t$3\n\t</fieldset>}\n\t$0\n</form>",
+
+			// Form item
+			"fi"           : "<li class=\"form-controlGroup\">\n\t<label for=\"${1:name}\" class=\"form-controlGroup-label\">${2:Label}</label>\n\t<div class=\"form-controlGroup-input\">\n\t\t<input type=\"${3:text}\" id=\"$1\"${4: placeholder=\"Placeholder text\"} />\n\t</div>\n</li>\n$0\n",
+
+			// Multiple form elements
+			"fg"           : "<ul>\n\t<li class=\"form-controlGroup\">\n\t\t<label for=\"name\" class=\"form-controlGroup-label\">Name</label>\n\t\t<div class=\"form-controlGroup-input\">\n\t\t\t<input type=\"text\" id=\"name\" placeholder=\"Zander Martineau\" />\n\t\t</div>\n\t</li>\n\t<li class=\"form-controlGroup\">\n\t\t<label for=\"email\" class=\"form-controlGroup-label\">Email</label>\n\t\t<div class=\"form-controlGroup-input\">\n\t\t\t<input type=\"email\" id=\"email\" placeholder=\"steve@apple.com\" />\n\t\t</div>\n\t</li>\n\t<li class=\"form-controlGroup\">\n\t\t<label for=\"phone\" class=\"form-controlGroup-label\">Phone</label>\n\t\t<div class=\"form-controlGroup-input\">\n\t\t\t<input type=\"number\" id=\"phone\" placeholder=\"020 123 4567\" />\n\t\t</div>\n\t</li>\n\t<li class=\"form-controlGroup\">\n\t\t<label for=\"comments\" class=\"form-controlGroup-label\">Comments <br>\n\t\t\t<small>This is a description</small>\n\t\t</label>\n\t\t<div class=\"form-controlGroup-input\">\n\t\t\t<textarea id=\"comments\" rows=\"3\" cols=\"50\"></textarea>\n\t\t</div>\n\t</li>\n</ul>\n",
+
+			// Form note
 			"note"           : "<span class=\"form-note\">?<span>First name &amp; last name</span></span>",
-			"pic"           : "<picture alt=\"\">\n\t<source media=\"(min-width: 45em)\" srcset=\"${1:large}-1.jpg 1x, ${1:large}-2.jpg 2x\">\n\t<source media=\"(min-width: 18em)\" srcset=\"${2:medium}-1.jpg 1x, ${2:medium}-2.jpg 2x\">\n\t<source srcset=\"${3:small}-1.jpg 1x, ${3:small}-2.jpg 2x\">\n\t<img src=\"${3:small}-1.jpg\">\n</picture>$0",
-			"row"           : "<div class=\"row\">\n\t$0\n</div>",
-			"tabs"           : "<ul class=\"tabs group\">\n\t<li>\n\t\t<a href=\"#tab_1\" class=\"active\">${1:Tab 1}</a>\n\t</li>\n\t<li>\n\t\t<a href=\"#tab_2\">${2:Tab 2}</a>\n\t</li>\n</ul>\n<ul class=\"tabs-content${3: contained}\">\n\t<li id=\"tab_1\" class=\"active\">\n\t\t<h3>$1 content</h3>\n\t\t<p>Pellentesque</p>\n\t</li>\n\t<li id=\"tab_2\">\n\t\t<h3>$2 content</h3>\n\t\t<p>Lorem ipsum</p>\n\t</li>\n</ul>"
-			// ""           : "",
-			// ""           : "",
+
+			// Grid row
+			"row"           : "<div class=\"g-row\">\n\t$0\n</div>",
+
+			// Tabs
+			"tabs"           : "<ul class=\"tabs group\">\n\t<li>\n\t\t<a href=\"#tab_1\" class=\"is-active\">${1:Tab 1}</a>\n\t</li>\n\t<li>\n\t\t<a href=\"#tab_2\">${2:Tab 2}</a>\n\t</li>\n</ul>\n<ul class=\"l-tabsContent${3: contained}\">\n\t<li id=\"tab_1\" class=\"is-active\">\n\t\t<h3>$1 content</h3>\n\t\t<p>Pellentesque</p>\n\t</li>\n\t<li id=\"tab_2\">\n\t\t<h3>$2 content</h3>\n\t\t<p>Lorem ipsum</p>\n\t</li>\n</ul>"
 			// ""           : "",
 		}
 	},
-
-	"less": {
-		"extends": "css",
-		"snippets": {
-			"br"           : ".border-radius(${1:5px});$0",
-			"bs"           : ".box-shadow(${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)});$0",
-			"box"           : ".box-sizing(${1:border-box});$0",
-			"fs"           : ".font-size(${1:16});$0",
-			"gh"           : "#gradient .horizontal(${1:#555} ${2:#333});$0",
-			"gv"           : "#gradient .vertical(${1:#555} ${2:#333});$0",
-			"lh"           : ".line-height(${1:16});$0",
-			"mq"           : "// === $1> ===\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n// === end $1> ===",
-			"op"           : ".opacity(${1:60});$0",
-			"size"           : ".size(${1:10}px,${2:10}px);$0",
-			"sq"           : ".square(${1:50}px);$0",
-			"tr"           : ".transition(${1:all 0.2s ease-in-out});$0"
-		}
-	}
 }

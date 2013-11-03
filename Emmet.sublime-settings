@@ -1,8 +1,9 @@
 {
 	// "disabled_single_snippet_for_scopes": "source.css, source.scss, source.sass",
 	// "disable_tab_abbreviations_for_scopes": "source.css, source.scss, source.sass",
-	"extensions_path" : "~/Dropbox/Sync/Application Support/Sublime Text 3/Packages/User/Emmet",
-
+	"extensions_path" : "~/Dropbox/Sync/Library/Application Support/Sublime Text 3/Packages/User/Emmet",
+	"disable_completions": false,
+	"remove_html_completions": true,
 	"disabled_keymap_actions": "increment_number_by_1, increment_number_by_10, decrement_number_by_1, decrement_number_by_1, increment_number_by_01, decrement_number_by_01"
 
 	// "preferences": {
