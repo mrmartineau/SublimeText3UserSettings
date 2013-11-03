@@ -48,14 +48,6 @@
 		"command": "next_bookmark"
 	},
 	{
-		"keys": ["shift+escape"],
-		"command": "alternative_autocomplete",
-		"context": [
-			{"operator": "equal", "operand": false, "key": "overlay_visible"},
-			{"operator": "equal", "match_all": true, "operand": true, "key": "selection_empty"}
-		]
-	},
-	{
 		"keys": ["super+alt+ctrl+a"],
 		"command": "alignment"
 	},
