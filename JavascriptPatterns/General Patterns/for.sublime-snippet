@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[var i, myarray = [];
+for (i = myarray.length; i--;) {
+	// do something with myarray[i]
+}]]></content>
+	<tabTrigger>for</tabTrigger>
+	<description>For Loop Pattern</description>
+	<scope>source.js</scope>
+</snippet>

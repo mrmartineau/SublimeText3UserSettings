@@ -1,8 +1,0 @@
-{
-	"sublimelinter_disable":
-	[
-		"css"
-	],
-
-	"sublimelinter_gutter_marks": true
-}
