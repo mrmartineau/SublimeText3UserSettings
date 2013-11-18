@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<?php include('$1'); ?>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>include</tabTrigger>
+	<description>PHP include</description>
+	<scope>source.php, source.html</scope>
+</snippet>

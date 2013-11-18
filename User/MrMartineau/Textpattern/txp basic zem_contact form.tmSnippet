@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;p&gt;If you have any enquiries, please fill in this form and we will contact you promptly.&lt;/p&gt;
+&lt;txp:zem_contact to="" label="" thanks_form="submit_thanks" subject=""&gt;
+	&lt;p&gt;&lt;txp:zem_contact_text label="Name *" required="1" break=""/&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;txp:zem_contact_text label="Phone *"  required="1" break=""/&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;txp:zem_contact_email label="Email *"  required="1" break=""/&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;txp:zem_contact_textarea cols="30" rows="3" default="Your message" label="Message" break=""/&gt;&lt;/p&gt;
+	&lt;txp:zem_contact_serverinfo name="REMOTE_ADDR" label="IP number" /&gt;
+	&lt;txp:zem_contact_submit label="Submit" /&gt;
+&lt;/txp:zem_contact&gt;</string>
+	<key>name</key>
+	<string>txp basic zem_contact form</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>1A05521B-2754-4BE5-A95A-8803ABD514CC</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+{
+	"files":
+	{
+		"Backbone.js": "http://documentcloud.github.com/backbone/backbone-min.js",
+		"Easie": "https://raw.github.com/jaukia/easie/master/js/jquery.easie.js",
+		"Kickoff .htaccess": "https://raw.github.com/tmwagency/kickoff/master/.htaccess",
+		"Kickoff index.html": "https://raw.github.com/tmwagency/kickoff/master/index.html",
+		"Kickoff script.js": "https://raw.github.com/tmwagency/kickoff/master/js/script.js",
+		"Skeleton Tabs": "https://raw.github.com/dhgamache/Skeleton/master/javascripts/tabs.js",
+		"Underscore.js": "http://documentcloud.github.com/underscore/underscore-min.js",
+		"h5bp index.html": "https://raw.github.com/h5bp/html5-boilerplate/master/index.html",
+		"handlebars.js": "http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js",
+		"jQuery Isotope": "https://raw.github.com/desandro/isotope/master/jquery.isotope.min.js",
+		"jQuery Masonry": "https://raw.github.com/desandro/masonry/master/jquery.masonry.min.js",
+		"jQuery Waypoints": "https://raw.github.com/imakewebthings/jquery-waypoints/master/waypoints.min.js",
+		"jQuery imagesLoaded": "https://raw.github.com/desandro/imagesloaded/master/jquery.imagesloaded.min.js",
+		"jQuery latest": "http://code.jquery.com/jquery.min.js",
+		"normalize.css": "https://raw.github.com/necolas/normalize.css/master/normalize.css"
+	},
+	"packages":
+	{
+		"320 and up": "https://github.com/malarkey/320andup/zipball/master",
+		"Boost": "https://github.com/mrmartineau/Boost/zipball/master",
+		"HTML5 Boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
+		"Kickoff": "https://github.com/tmwagency/kickoff/zipball/master",
+		"Twitter Bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
+		"Zurb Foundation": "https://github.com/zurb/foundation/zipball/master"
+	}
+}
