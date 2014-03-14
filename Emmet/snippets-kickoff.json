@@ -10,7 +10,7 @@
 			"mq"               : "/* === $1> === */\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n/* === end $1> === */",
 			"br"               : "border-radius: ${1:5px};$0",
 			"bs"               : "box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0",
-			"bgs"              : "background-size: ${:cover};$0",
+			"bgs"              : "background-size: ${1:cover};$0",
 			"box"              : "box-sizing: ${1:border-box};$0",
 			"mq"               : "// === $1> ===\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n// === end $1> ===",
 			"trans"            : "transition: ${1:all 200ms ease-in-out};$0",
@@ -22,7 +22,7 @@
 			"translate3d"      : "transform: translate3d(${1:x} ${2:y} ${2:z});",
 			"transform-origin" : "transform-origin: ${1:center} ${2:center};",
 			"anim"             : "animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;"
-		}
+ 		}
 	},
 
 	"scss": {
@@ -31,20 +31,22 @@
 			"bg"               : "background: ${1:#f2f2f2} url('${2:#{\\$img-path\\}}${3:/ui/}') ${4:left} ${5:top} ${6:no-repeat};$0",
 			"fs"               : "@include font-size(${1:16});$0",
 			"lh"               : "@include line-height(${1:16});$0",
-			"lg"               : "@include linear-gradient(${1:top/left}, ${2:#1e5799 0%}, ${3:#2989d8 50%});$0",
-			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $fallback: ${3:red});$0",
+			"lg"               : "@include linear-gradient(${1:#1e5799 0%}, ${2:#2989d8 50%}, ${1:horizontal/vertical}, ${4:false/true});$0",
+			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $ie: ${3:true/false});$0",
 			"op"               : "@include opacity(${1:60});$0",
 			"pf"               : "@include prefixer(${1:property}, $arg, ${2:webkit moz ms o spec});$0",
-			"rmax"               : "\n// === <$1 ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
-			"rmin"               : "\n// === <$1 ===\n@include respond-min(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
-			"rmm"              : "\n// === <$1 ===\n@include respond-min-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmin"             : "\n// === $1> ===\n@include respond-min(${1:768}) {\n\t$0\n}\n// === end $1> ===\n",
+			"rmax"             : "\n// === <$1 ===\n@include respond-max(${1:768}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmm"              : "\n// === $1> <$2 ===\n@include respond-min-max(${1:300}, ${2:800}) {\n\t$0\n}\n// === end <$1 ===\n",
 			"size"             : "@include size(${1:10}px,${2:10}px);$0",
 			"sq"               : "@include square(${1:50}px);$0",
 			"va"               : "@include vertical-align(${1:50px});$0",
 			"hd"               : "@include hidpi(${1:1.5}){\n\t$2\n};$0",
 			"cols"             : "@include content-columns(${1:1 (column count)},${2:20px (column gap)}30px);",
 			"hyphens"          : "@include hyphens(${1:auto});",
-
+			"hover"            : "&:hover {\n\t$0\n}",
+			"after"            : "&:after {\n\tcontent:'';\n\t$0\n}",
+			"before"           : "&:before {\n\tcontent:'';\n\t$0\n}",
 
 			// Vars
 			"ko-bfs"      : "\\$base-font-size",
@@ -87,7 +89,7 @@
 			"col"           : "<div class=\"g-span${1:12} g-col\">\n\t$2\n</div>$0",
 
 			// Form
-			"f"           : "<form action=\"#\"${1: class=\"form--horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>Your form</legend>}\n\t\t$3\n\t</fieldset>}\n\t$0\n</form>",
+			"f"           : "<form action=\"#\"${1: class=\"form--horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>Your form</legend>}\n\t\t$3\n\t</fieldset>\n\t$0\n</form>",
 
 			// Form item
 			"fi"           : "<li class=\"form-controlGroup\">\n\t<label for=\"${1:name}\" class=\"form-controlGroup-label\">${2:Label}</label>\n\t<div class=\"form-controlGroup-input\">\n\t\t<input type=\"${3:text}\" id=\"$1\"${4: placeholder=\"Placeholder text\"} />\n\t</div>\n</li>\n$0\n",
