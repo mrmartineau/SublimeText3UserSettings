@@ -111,6 +111,7 @@
 	"shift_tab_unindent": false,
 	"spell_check": false,
 	"tab_completion": false,
+	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
