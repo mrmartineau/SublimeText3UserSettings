@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_id_class": true,
@@ -23,15 +23,19 @@
 		"*.zip"
 	],
 	"bold_folder_labels": true,
-	"caret_style": "wide",
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Theme - Spacefunk/Future Funk (Grey Tuesday).tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
@@ -41,25 +45,48 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_face": "SourceCodePro-Semibold",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 17.0,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeBlockCursor",
-		"Modific",
-		"Vintage",
-		"SublimeLinter",
 		"All Autocomplete",
-		"CursorRuler"
+		"MoveText",
+		"Emmet Css Snippets",
+		"SublimeTODO",
+		"Vintage",
+		"Wind",
+		"Base16 Color Schemes",
+		"LESS",
+		"ColorHighlighter",
+		"DocBlockr",
+		"Sublimall",
+		"Keymap Redefiner",
+		"Kickoff-snippets",
+		"Open-Include",
+		"Hayaku - tools for writing CSS faster",
+		"List Stylesheet Variables",
+		"LiveStyle",
+		"Markdown",
+		"ScopeHunter",
+		"Idiomatic-Comments-Snippets",
+		"JavaScript Patterns",
+		"EditorConfig",
+		"Jump Along Indent",
+		"HTML5",
+		"FindKeyConflicts",
+		"Origami",
+		"ColorPicker",
+		"AlignTab"
 	],
 	"indent_guide_options":
 	[
@@ -84,8 +111,8 @@
 	"shift_tab_unindent": false,
 	"spell_check": false,
 	"tab_completion": false,
-	"theme": "Phoenix Light.sublime-theme",
+	"theme": "Phoenix Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": "true"
 }

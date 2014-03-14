@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[/*	Author: TMW - Zander Martineau */
+
+;(function (TMW${1:, \$}) {
+	TMW.${3:ObjectName} = {
+		$0
+	};
+})(window.TMW = window.TMW || {}${2:, jQuery});]]></content>
+	<tabTrigger>new</tabTrigger>
+	<description>New Object with closure wrapper</description>
+	<scope>source.js</scope>
+</snippet>

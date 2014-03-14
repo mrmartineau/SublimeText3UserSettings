@@ -1,0 +1,43 @@
+// Sublime Writer Theme - github.com/paulcpederson/sublime-writer
+{
+    "auto_indent": false,
+    "caret_style": "smooth",
+    // This should link to the tmTheme file provided in the repo
+    "color_scheme": "Packages/Color Scheme - Sublime Writer/SublimeWriter.tmTheme",
+    "detect_indentation": false,
+    "draw_centered": true,
+    "extensions":
+    [
+        "hidden"
+    ],
+    "fade_fold_buttons": false,
+    "fold_buttons": false,
+    // Change this to be another monospace font if you don't have Nitti.
+    //"font_face": "Nitti WM2 Light",
+    "font_options":
+    [
+    ],
+    //"font_size": 17,
+    "gutter": true,
+    "highlight_line": true,
+    "indent_subsequent_lines": true,
+    "indent_to_bracket": false,
+    "line_numbers": false,
+    "line_padding_bottom": 5,
+    "line_padding_top": 6,
+    "margin": 20,
+    "overlay_scroll_bars": "system",
+    "rulers":
+    [
+    ],
+    "smart_indent": false,
+    "spell_check": false,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
+    "trim_automatic_white_space": false,
+    "use_tab_stops": false,
+    "wide_caret": true,
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+    "word_wrap": "true",
+    "wrap_width": 62
+}
