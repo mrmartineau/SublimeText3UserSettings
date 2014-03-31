@@ -7,6 +7,7 @@
 		"AlignTab",
 		"All Autocomplete",
 		"AutoFileName",
+		"Base16 Color Schemes",
 		"Case Conversion",
 		"ColorPicker",
 		"CSS3_Syntax",
@@ -16,6 +17,7 @@
 		"File Navigator",
 		"FindKeyConflicts",
 		"Gutter Color",
+		"Handlebars",
 		"Idiomatic-CSS-Comments-Snippets",
 		"Inc-Dec-Value",
 		"JavaScript & NodeJS Snippets",
@@ -27,6 +29,7 @@
 		"Keymap Redefiner",
 		"LESS",
 		"MacTerminal",
+		"MarkdownEditing",
 		"MoveText",
 		"Open-Include",
 		"Origami",
@@ -45,6 +48,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"Syntax Highlighting for Sass",
-		"Theme - Phoenix"
+		"Theme - Phoenix",
+		"Theme - Spacefunk"
 	]
 }

@@ -28,7 +28,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Spacefunk/Future Funk (Grey Tuesday).tmTheme",
+	"color_scheme": "Packages/User/Tomorrow-Night-Eighties (SL).tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -53,24 +53,23 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 20,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"FindKeyConflicts",
-		"AlignTab",
 		"Markdown",
-		"ScopeHunter",
-		"Kickoff-snippets",
-		"Origami",
+		"All Autocomplete",
+		"JavaScript Patterns",
+		"Vintage",
+		"Keymap Redefiner",
 		"LESS",
 		"Idiomatic-Comments-Snippets",
-		"All Autocomplete",
-		"Keymap Redefiner",
-		"JavaScript Patterns",
-		"Vintage"
+		"Kickoff-snippets",
+		"Origami",
+		"AlignTab",
+		"FindKeyConflicts"
 	],
 	"indent_guide_options":
 	[
