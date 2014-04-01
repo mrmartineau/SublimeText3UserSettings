@@ -60,15 +60,15 @@
 	"ignored_packages":
 	[
 		"Origami",
-		"All Autocomplete",
-		"Kickoff-snippets",
-		"Keymap Redefiner",
 		"LESS",
-		"AlignTab",
-		"Vintage",
 		"Idiomatic-Comments-Snippets",
-		"Markdown",
 		"JavaScript Patterns",
+		"Markdown",
+		"Keymap Redefiner",
+		"Kickoff-snippets",
+		"All Autocomplete",
+		"Vintage",
+		"AlignTab",
 		"FindKeyConflicts"
 	],
 	"indent_guide_options":
