@@ -1,0 +1,45 @@
+[
+    { "caption": "-"},
+
+    { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "left" }, "caption": "Close Tabs to the Left" },
+    { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "all" }, "caption": "Close All Tabs" },
+    {
+        "caption": "Close Tabs(s) - Skip Unsaved",
+        "children":
+        [
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "single", "close_unsaved": false }, "caption": "Close" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "other", "close_unsaved": false }, "caption": "Close Other Tabs" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "right", "close_unsaved": false }, "caption": "Close Tabs to the Right" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "left", "close_unsaved": false }, "caption": "Close Tabs to the Left" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "all", "close_unsaved": false }, "caption": "Close All Tabs" }
+        ]
+    },
+    {
+        "caption": "Close Tabs(s) - Dismiss Unsaved",
+        "children":
+        [
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "single", "unsaved_prompt": false }, "caption": "Close" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "other", "unsaved_prompt": false }, "caption": "Close Other Tabs" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "right", "unsaved_prompt": false }, "caption": "Close Tabs to the Right" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "left", "unsaved_prompt": false }, "caption": "Close Tabs to the Left" },
+            { "command": "tabs_extra", "args": { "group": -1, "index": -1, "close_type": "all", "unsaved_prompt": false }, "caption": "Close All Tabs" }
+        ]
+    },
+    { "caption": "-" },
+    { "command": "tabs_extra_toggle_sticky", "args": { "group": -1, "index": -1 }, "caption": "Sticky Tab" },
+    { "command": "tabs_extra_clear_all_sticky", "args": { "group": -1, "force": true }, "caption": "Clear All Sticky Tabs" },
+    { "caption": "-" },
+
+    { "command": "reopen_last_file", "caption": "Reopen Last Tab" },
+    { "caption": "-" },
+    { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "save"}, "caption": "Save" },
+    { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "prompt_save_as"}, "caption": "Save As…" },
+    { "command": "save_all", "caption": "Save All" },
+    { "caption": "-" },
+    { "command": "tabs_extra_file", "args": {"group": -1, "index": -1, "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}}, "caption": "Open Containing Folder…" },
+    { "command": "tabs_extra_file", "args": {"group": -1, "index": -1, "command": "reveal_in_side_bar"}, "caption": "Reveal in Side Bar" },
+    { "caption": "-" },
+    { "command": "tabs_extra_file", "args": {"group": -1, "index": -1, "command": "copy_path"}, "caption": "Copy File Path" },
+    { "caption": "-" },
+    { "command": "tabs_extra_revert", "args": {"group": -1, "index": -1, "command": "revert"}, "caption": "Revert File" }
+]
