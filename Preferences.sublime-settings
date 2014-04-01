@@ -59,16 +59,16 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Origami",
 		"All Autocomplete",
-		"JavaScript Patterns",
-		"Vintage",
+		"Kickoff-snippets",
 		"Keymap Redefiner",
 		"LESS",
-		"Idiomatic-Comments-Snippets",
-		"Kickoff-snippets",
-		"Origami",
 		"AlignTab",
+		"Vintage",
+		"Idiomatic-Comments-Snippets",
+		"Markdown",
+		"JavaScript Patterns",
 		"FindKeyConflicts"
 	],
 	"indent_guide_options":
