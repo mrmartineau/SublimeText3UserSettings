@@ -45,31 +45,31 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules"
+		// "node_modules",
+		"CVS"
 	],
 	"font_face": "SourceCodePro-Semibold",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 19,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Origami",
 		"LESS",
-		"Idiomatic-Comments-Snippets",
 		"JavaScript Patterns",
+		"Kickoff-snippets",
+		"Vintage",
+		"Origami",
+		"Idiomatic-Comments-Snippets",
+		"FindKeyConflicts",
 		"Markdown",
 		"Keymap Redefiner",
-		"Kickoff-snippets",
-		"All Autocomplete",
-		"Vintage",
 		"AlignTab",
-		"FindKeyConflicts"
+		"All Autocomplete"
 	],
 	"indent_guide_options":
 	[
