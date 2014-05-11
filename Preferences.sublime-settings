@@ -45,7 +45,6 @@
 		".svn",
 		".git",
 		".hg",
-		// "node_modules",
 		"CVS"
 	],
 	"font_face": "SourceCodePro-Semibold",
@@ -53,23 +52,24 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 17,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"LESS",
-		"JavaScript Patterns",
-		"Kickoff-snippets",
-		"Vintage",
-		"Origami",
 		"Idiomatic-Comments-Snippets",
+		"Kickoff-snippets",
+		"JavaScript Patterns",
+		"Origami",
+		"AlignTab",
 		"FindKeyConflicts",
 		"Markdown",
+		"All Autocomplete",
+		"Vintage",
 		"Keymap Redefiner",
-		"AlignTab",
-		"All Autocomplete"
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
@@ -95,7 +95,7 @@
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
