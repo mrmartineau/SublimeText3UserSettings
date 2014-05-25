@@ -58,24 +58,23 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
-		"TabsExtra",
-		"Idiomatic-Comments-Snippets",
-		"HTML5",
-		"Markdown",
-		"Emmet Css Snippets",
 		"Origami",
-		"Kickoff-snippets",
-		"All Autocomplete",
-		"LESS",
-		"Vintage",
-		"JavaScript Patterns",
-		"Keymap Redefiner",
-		"Syntax Highlighting for Sass",
-		"SideBarEnhancements",
 		"SublimeLinter-json",
+		"Vintage",
 		"FindKeyConflicts",
-		"AlignTab"
+		"Emmet Css Snippets",
+		"Syntax Highlighting for Sass",
+		"All Autocomplete",
+		"Markdown",
+		"Idiomatic-Comments-Snippets",
+		"LESS",
+		"AlignTab",
+		"Kickoff-snippets",
+		"Keymap Redefiner",
+		"TabsExtra",
+		"JavaScript Patterns",
+		"JavaScript",
+		"HTML5"
 	],
 	"indent_guide_options":
 	[
@@ -104,5 +103,5 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+	"word_wrap": "true"
 }
