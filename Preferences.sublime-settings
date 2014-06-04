@@ -52,24 +52,29 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 20,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Idiomatic-Comments-Snippets",
-		"LESS",
-		"Kickoff-snippets",
-		"AlignTab",
-		"JavaScript",
-		"JavaScript Patterns",
+		"Origami",
+		"SublimeLinter-json",
+		"Vintage",
+		"FindKeyConflicts",
+		"Emmet Css Snippets",
+		"Syntax Highlighting for Sass",
 		"All Autocomplete",
 		"Markdown",
-		"FindKeyConflicts",
-		"Origami",
+		"Idiomatic-Comments-Snippets",
+		"LESS",
+		"AlignTab",
+		"Kickoff-snippets",
 		"Keymap Redefiner",
-		"Vintage"
+		"TabsExtra",
+		"JavaScript Patterns",
+		"JavaScript",
+		"HTML5"
 	],
 	"indent_guide_options":
 	[
@@ -98,5 +103,5 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+	"word_wrap": "true"
 }

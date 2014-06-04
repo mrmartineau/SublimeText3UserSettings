@@ -3,7 +3,7 @@
     "auto_indent": false,
     "caret_style": "smooth",
     // This should link to the tmTheme file provided in the repo
-    "color_scheme": "Packages/Color Scheme - Sublime Writer/SublimeWriter.tmTheme",
+    "color_scheme": "Packages/User/Color Scheme - Sublime Writer/SublimeWriter.tmTheme",
     "detect_indentation": false,
     "draw_centered": true,
     "extensions":
