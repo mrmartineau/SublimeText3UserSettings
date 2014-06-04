@@ -56,6 +56,14 @@
 		"command": "alignment"
 	},
 	{
+		"keys": ["alt+up"],
+		"command": "inc_dec_value", "args": { "action": "inc_min" }
+	},
+	{
+		"keys": ["alt+down"],
+		"command": "inc_dec_value", "args": { "action": "dec_min" }
+	},
+	{
 		"keys": ["super+alt+shift+down"],
 		"command": "inc_dec_value", "args": {"action": "dec_all"}
 	},
