@@ -52,29 +52,29 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 20,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Origami",
-		"SublimeLinter-json",
-		"Vintage",
-		"FindKeyConflicts",
-		"Emmet Css Snippets",
-		"Syntax Highlighting for Sass",
-		"All Autocomplete",
-		"Markdown",
-		"Idiomatic-Comments-Snippets",
 		"LESS",
-		"AlignTab",
-		"Kickoff-snippets",
-		"Keymap Redefiner",
 		"TabsExtra",
 		"JavaScript Patterns",
+		"AlignTab",
+		"Kickoff-snippets",
+		"Idiomatic-Comments-Snippets",
+		"FindKeyConflicts",
+		"ExpressionEngine",
+		"HTML5",
+		"Emmet Css Snippets",
+		"Origami",
+		"Markdown",
 		"JavaScript",
-		"HTML5"
+		"Vintage",
+		"All Autocomplete",
+		"Keymap Redefiner",
+		"Syntax Highlighting for Sass"
 	],
 	"indent_guide_options":
 	[
