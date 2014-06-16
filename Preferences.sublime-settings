@@ -58,22 +58,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"LESS",
 		"TabsExtra",
 		"JavaScript Patterns",
-		"AlignTab",
 		"Kickoff-snippets",
 		"Idiomatic-Comments-Snippets",
 		"FindKeyConflicts",
 		"ExpressionEngine",
 		"HTML5",
-		"Emmet Css Snippets",
 		"Origami",
 		"Markdown",
 		"JavaScript",
 		"Vintage",
-		"All Autocomplete",
-		"Keymap Redefiner",
 		"Syntax Highlighting for Sass"
 	],
 	"indent_guide_options":
