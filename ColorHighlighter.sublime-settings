@@ -1,0 +1,35 @@
+{
+	"color_formats":
+	[
+		"white",
+		"#FFF",
+		"#FFFF",
+		"#FFFFFF",
+		"#FFFFFFFF",
+		"rgb(255, 255, 255)",
+		"rgba(255, 255, 255, 1.0)",
+		"hsv(0, 0%, 100%)",
+		"hsva(0, 0%, 100%, 1.0)",
+		"hsl(0, 100%, 100%)",
+		"hsla(0, 100%, 100%, 1.0)"
+	],
+	"convert_util_path": "convert",
+	"default_keybindings": true,
+	"enabled": true,
+	"file_exts":
+	[
+		".css",
+		".sass",
+		".scss",
+		".less",
+		".styl",
+		".html",
+		".js",
+		".sublime-settings",
+		".tmTheme"
+	],
+	"ha_style": "underlined_solid",
+	"icons": true,
+	"icons_all": true,
+	"style": "filled"
+}

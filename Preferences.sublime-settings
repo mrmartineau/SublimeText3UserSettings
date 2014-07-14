@@ -58,18 +58,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"FindKeyConflicts",
-		"Origami",
 		"Syntax Highlighting for Sass",
-		"JavaScript Patterns",
-		"ExpressionEngine",
-		"Markdown",
-		"Kickoff-snippets",
-		"JavaScript",
 		"HTML5",
-		"TabsExtra",
-		"Idiomatic-Comments-Snippets"
+		"Markdown",
+		"ExpressionEngine",
+		"Origami",
+		"JavaScript Patterns",
+		"GitGutter",
+		"JavaScript",
+		"Kickoff-snippets",
+		"Vintage",
+		"Sound"
 	],
 	"indent_guide_options":
 	[
