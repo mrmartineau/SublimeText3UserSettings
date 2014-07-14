@@ -52,24 +52,23 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TabsExtra",
-		"JavaScript Patterns",
-		"Kickoff-snippets",
-		"Idiomatic-Comments-Snippets",
-		"FindKeyConflicts",
-		"ExpressionEngine",
+		"Syntax Highlighting for Sass",
 		"HTML5",
-		"Origami",
 		"Markdown",
+		"ExpressionEngine",
+		"Origami",
+		"JavaScript Patterns",
+		"GitGutter",
 		"JavaScript",
+		"Kickoff-snippets",
 		"Vintage",
-		"Syntax Highlighting for Sass"
+		"Sound"
 	],
 	"indent_guide_options":
 	[

@@ -1,35 +1,39 @@
 [
 	{
 		"keys": ["alt+ctrl+1"],
-		"command": "set_setting", "args": {"setting": "tab_size", "value": 1}
+		"command": "set_setting", "args": {"value": 1, "setting": "tab_size"}
 	},
 	{
 		"keys": ["alt+ctrl+2"],
-		"command": "set_setting", "args": {"setting": "tab_size", "value": 2}
+		"command": "set_setting", "args": {"value": 2, "setting": "tab_size"}
 	},
 	{
 		"keys": ["alt+ctrl+3"],
-		"command": "set_setting", "args": {"setting": "tab_size", "value": 3}
+		"command": "set_setting", "args": {"value": 3, "setting": "tab_size"}
 	},
 	{
 		"keys": ["alt+ctrl+4"],
-		"command": "set_setting", "args": {"setting": "tab_size", "value": 4}
+		"command": "set_setting", "args": {"value": 4, "setting": "tab_size"}
+	},
+	{
+		"keys": ["alt+down"],
+		"command": "inc_dec_value", "args": {"action": "dec_min"}
+	},
+	{
+		"keys": ["alt+down"],
+		"command": "inc_dec_value", "args": {"action": "dec_min"}
 	},
 	{
 		"keys": ["alt+f12"],
 		"command": "cv", "args": {"type": "production", "paths": []}
 	},
 	{
-		"keys": ["ctrl+shift+b"],
-		"command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}
+		"keys": ["alt+up"],
+		"command": "inc_dec_value", "args": {"action": "inc_min"}
 	},
 	{
-		"keys": ["ctrl+shift+c"],
-		"command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}
-	},
-	{
-		"keys": ["ctrl+shift+x"],
-		"command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}"}
+		"keys": ["alt+up"],
+		"command": "inc_dec_value", "args": {"action": "inc_min"}
 	},
 	{
 		"keys": ["f1"],
@@ -54,16 +58,6 @@
 	{
 		"keys": ["super+alt+shift+a"],
 		"command": "alignment"
-	},
-	{ "keys": ["alt+up"],              "command": "inc_dec_value", "args": { "action": "inc_min" } },
-	{ "keys": ["alt+down"],            "command": "inc_dec_value", "args": { "action": "dec_min" } },
-	{
-		"keys": ["alt+up"],
-		"command": "inc_dec_value", "args": { "action": "inc_min" }
-	},
-	{
-		"keys": ["alt+down"],
-		"command": "inc_dec_value", "args": { "action": "dec_min" }
 	},
 	{
 		"keys": ["super+alt+shift+down"],

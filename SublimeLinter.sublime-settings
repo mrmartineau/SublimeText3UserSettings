@@ -57,7 +57,8 @@
 				],
 				"excludes":
 				[
-				]
+				],
+				"strict": true
 			},
 			"php":
 			{
