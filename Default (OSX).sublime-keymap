@@ -25,7 +25,7 @@
 	},
 	{
 		"keys": ["alt+f12"],
-		"command": "cv", "args": {"type": "production", "paths": []}
+		"command": "cv", "args": {"paths": [], "type": "production"}
 	},
 	{
 		"keys": ["alt+up"],
@@ -41,7 +41,7 @@
 	},
 	{
 		"keys": ["f12"],
-		"command": "cv", "args": {"type": "testing", "paths": []}
+		"command": "cv", "args": {"paths": [], "type": "testing"}
 	},
 	{
 		"keys": ["f2"],
