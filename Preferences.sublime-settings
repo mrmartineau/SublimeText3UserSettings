@@ -47,12 +47,12 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "SourceCodePro-Semibold",
+	"font_face": "InputMono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -76,8 +76,8 @@
 	],
 	"indent_subsequent_lines": false,
 	"indent_to_bracket": true,
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"match_brackets_angle": true,
 	"move_to_limit_on_up_down": true,
 	"overlay_scroll_bars": "enabled",
