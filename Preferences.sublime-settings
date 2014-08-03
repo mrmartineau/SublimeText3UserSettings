@@ -58,17 +58,16 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Syntax Highlighting for Sass",
-		"HTML5",
-		"Markdown",
-		"ExpressionEngine",
-		"Origami",
-		"JavaScript Patterns",
-		"GitGutter",
 		"JavaScript",
-		"Kickoff-snippets",
 		"Vintage",
-		"Sound"
+		"GitGutter",
+		"Sound",
+		"Markdown",
+		"Kickoff-snippets",
+		"JavaScript Patterns",
+		"HTML5",
+		"Origami",
+		"SCSS"
 	],
 	"indent_guide_options":
 	[
