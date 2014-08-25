@@ -59,15 +59,17 @@
 	"ignored_packages":
 	[
 		"JavaScript",
-		"Vintage",
-		"GitGutter",
-		"Sound",
-		"Markdown",
 		"Kickoff-snippets",
-		"JavaScript Patterns",
-		"HTML5",
+		"TabsExtra",
 		"Origami",
-		"SCSS"
+		"GitGutter",
+		"HTML5",
+		"SCSS",
+		"Sound",
+		"ExpressionEngine",
+		"Vintage",
+		"JavaScript Patterns",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
