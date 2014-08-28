@@ -22,7 +22,7 @@
 		"ExpressionEngine",
 		"File Navigator",
 		"FindKeyConflicts",
-		"GitGutter",
+		"Git",
 		"Handlebars",
 		"Highlight",
 		"Idiomatic-CSS-Comments-Snippets",
@@ -60,12 +60,9 @@
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-xmllint",
-		"Syntax Highlighting for Sass",
 		"TabsExtra",
 		"Theme - Phoenix",
 		"Theme - Soda",
-		"Theme - Spacefunk",
-		"Theme - Spacegray",
 		"Themr",
 		"Tomorrow Color Schemes"
 	]
