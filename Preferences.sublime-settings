@@ -58,16 +58,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
-		"Vintage",
-		"GitGutter",
+		"HTML5",
+		"Kickoff-snippets",
+		"Origami",
+		"ExpressionEngine",
 		"Sound",
 		"Markdown",
-		"Kickoff-snippets",
-		"JavaScript Patterns",
-		"HTML5",
-		"Origami",
-		"SCSS"
+		"TabsExtra",
+		"Git",
+		"Emmet Css Snippets",
+		"Vintage",
+		"JavaScript",
+		"JavaScript Patterns"
 	],
 	"indent_guide_options":
 	[
