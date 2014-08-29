@@ -49,6 +49,7 @@
 		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements",
+		"Simple Project Manager",
 		"SmartMarkdown",
 		"Sound",
 		"STProjectMaker",
@@ -59,7 +60,6 @@
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-xmllint",
-		"SyncedSideBar",
 		"Syntax Highlighting for Sass",
 		"TabsExtra",
 		"Theme - Phoenix",
@@ -67,6 +67,7 @@
 		"Theme - Spacefunk",
 		"Theme - Spacegray",
 		"Themr",
+		"TodoReview",
 		"Tomorrow Color Schemes"
 	]
 }

@@ -1,19 +1,19 @@
 [
 	{
 		"keys": ["alt+ctrl+1"],
-		"command": "set_setting", "args": {"value": 1, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 1}
 	},
 	{
 		"keys": ["alt+ctrl+2"],
-		"command": "set_setting", "args": {"value": 2, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 2}
 	},
 	{
 		"keys": ["alt+ctrl+3"],
-		"command": "set_setting", "args": {"value": 3, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 3}
 	},
 	{
 		"keys": ["alt+ctrl+4"],
-		"command": "set_setting", "args": {"value": 4, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 4}
 	},
 	{
 		"keys": ["alt+down"],
