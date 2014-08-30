@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": false,
+	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_id_class": true,
@@ -52,7 +52,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 17,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,

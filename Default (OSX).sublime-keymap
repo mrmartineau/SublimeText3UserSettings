@@ -1,19 +1,19 @@
 [
 	{
 		"keys": ["alt+ctrl+1"],
-		"command": "set_setting", "args": {"value": 1, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 1}
 	},
 	{
 		"keys": ["alt+ctrl+2"],
-		"command": "set_setting", "args": {"value": 2, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 2}
 	},
 	{
 		"keys": ["alt+ctrl+3"],
-		"command": "set_setting", "args": {"value": 3, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 3}
 	},
 	{
 		"keys": ["alt+ctrl+4"],
-		"command": "set_setting", "args": {"value": 4, "setting": "tab_size"}
+		"command": "set_setting", "args": {"setting": "tab_size", "value": 4}
 	},
 	{
 		"keys": ["alt+down"],
@@ -25,7 +25,7 @@
 	},
 	{
 		"keys": ["alt+f12"],
-		"command": "cv", "args": {"paths": [], "type": "production"}
+		"command": "cv", "args": {"type": "production", "paths": []}
 	},
 	{
 		"keys": ["alt+up"],
@@ -41,7 +41,7 @@
 	},
 	{
 		"keys": ["f12"],
-		"command": "cv", "args": {"paths": [], "type": "testing"}
+		"command": "cv", "args": {"type": "testing", "paths": []}
 	},
 	{
 		"keys": ["f2"],
