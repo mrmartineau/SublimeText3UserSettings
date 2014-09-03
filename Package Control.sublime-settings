@@ -54,6 +54,7 @@
 		"Sound",
 		"STProjectMaker",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
@@ -64,6 +65,8 @@
 		"Theme - Phoenix",
 		"Theme - Soda",
 		"Themr",
+		"ToDone",
+		"TodoReview",
 		"Tomorrow Color Schemes"
 	]
 }
