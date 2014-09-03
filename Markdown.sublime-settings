@@ -1,8 +1,6 @@
 {
 	"auto_indent": false,
-	"caret_style": "smooth",
 	"detect_indentation": false,
-	"draw_centered": true,
 	"extensions":
 	[
 		"hidden",
@@ -18,8 +16,6 @@
 	"indent_to_bracket": false,
 	"line_padding_bottom": 5,
 	"line_padding_top": 6,
-	// "margin": 20,
-	"overlay_scroll_bars": "system",
 	"rulers":
 	[
 	],

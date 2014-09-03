@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": false,
+	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_id_class": true,
@@ -52,24 +52,23 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 17,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Kickoff-snippets",
-		"HTML5",
-		"ExpressionEngine",
-		"JavaScript",
-		"Vintage",
-		"Sound",
-		"Origami",
 		"Markdown",
+		"Vintage",
+		"Kickoff-snippets",
+		"ExpressionEngine",
+		"HTML5",
 		"Emmet Css Snippets",
-		"TabsExtra",
 		"JavaScript Patterns",
-		"Git"
+		"TabsExtra",
+		"Origami",
+		"Sound",
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
