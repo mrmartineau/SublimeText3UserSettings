@@ -59,14 +59,14 @@
 	"ignored_packages":
 	[
 		"HTML5",
+		"TabsExtra",
 		"Markdown",
 		"ExpressionEngine",
-		"TabsExtra",
-		"JavaScript",
 		"Origami",
-		"Vintage",
-		"Git",
 		"Kickoff-snippets",
+		"Git",
+		"JavaScript",
+		"Vintage",
 		"JavaScript Patterns"
 	],
 	"indent_guide_options":
@@ -96,5 +96,6 @@
 	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
 	"word_wrap": "true"
 }
