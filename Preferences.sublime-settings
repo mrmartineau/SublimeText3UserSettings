@@ -58,16 +58,16 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript Patterns",
+		"HTML5",
+		"TabsExtra",
+		"Markdown",
+		"ExpressionEngine",
+		"Origami",
+		"Kickoff-snippets",
+		"Git",
 		"JavaScript",
 		"Vintage",
-		"Kickoff-snippets",
-		"ExpressionEngine",
-		"HTML5",
-		"Git",
-		"Origami",
-		"TabsExtra",
-		"Markdown"
+		"JavaScript Patterns"
 	],
 	"indent_guide_options":
 	[
@@ -96,6 +96,6 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true",
-	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?"
+	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
+	"word_wrap": "true"
 }

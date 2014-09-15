@@ -23,6 +23,7 @@
 		"ExpressionEngine",
 		"File Navigator",
 		"FindKeyConflicts",
+		"FuzzyFilePath",
 		"Git",
 		"Handlebars",
 		"Highlight",
