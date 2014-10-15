@@ -58,16 +58,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TabsExtra",
-		"JavaScript Patterns",
-		"ExpressionEngine",
-		"Origami",
-		"Git",
-		"HTML5",
-		"JavaScript",
-		"Kickoff-snippets",
 		"Vintage",
-		"Markdown"
+		"Kickoff-snippets",
+		"JavaScript Patterns",
+		"Git",
+		"SublimeGit",
+		"Markdown",
+		"Origami",
+		"ExpressionEngine",
+		"TabsExtra",
+		"JavaScript",
+		"HTML5"
 	],
 	"indent_guide_options":
 	[

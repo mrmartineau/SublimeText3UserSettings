@@ -1,9 +1,4 @@
 {
-	"sublimelinter_disable":
-	[
-		"css"
-	],
-	"sublimelinter_gutter_marks": true,
 	"user":
 	{
 		"debug": false,
@@ -16,6 +11,25 @@
 		"lint_mode": "background",
 		"linters":
 		{
+			"annotations":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"errors":
+				[
+					"FIXME"
+				],
+				"excludes":
+				[
+				],
+				"warnings":
+				[
+					"TODO",
+					"README"
+				]
+			},
 			"csslint":
 			{
 				"@disable": true,
@@ -69,6 +83,18 @@
 				"excludes":
 				[
 				]
+			},
+			"scss":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"exclude-linter": "",
+				"excludes":
+				[
+				],
+				"include-linter": ""
 			},
 			"xmllint":
 			{
