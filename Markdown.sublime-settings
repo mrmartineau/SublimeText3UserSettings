@@ -3,8 +3,7 @@
 	"detect_indentation": false,
 	"extensions":
 	[
-		"hidden",
-		"md"
+		"hidden"
 	],
 	"fade_fold_buttons": false,
 	"font_options":

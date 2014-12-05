@@ -20,7 +20,8 @@
 		"*.psd",
 		"*.swf",
 		"*.jar",
-		"*.zip"
+		"*.zip",
+		"node_modules/*"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 2,
@@ -37,6 +38,28 @@
 	"draw_white_space": "all",
 	"enable_tab_scrolling": true,
 	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.sublime-workspace"
+	],
 	"find_selected_text": true,
 	"fold_buttons": true,
 	"folder_exclude_patterns":
@@ -52,14 +75,16 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"JavaScript",
 		"Origami",
+		"Handlebars",
+		"Vintage",
 		"Markdown"
 	],
 	"indent_guide_options":
@@ -89,6 +114,5 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
 	"word_wrap": "true"
 }
