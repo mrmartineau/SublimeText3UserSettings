@@ -1,5 +1,10 @@
 {
 	"auto_upgrade_last_run": null,
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -53,6 +58,7 @@
 		"OmniSharp",
 		"Open-Include",
 		"Origami",
+		"Package Control",
 		"PowerCursors",
 		"Preference Helper",
 		"Razor",
