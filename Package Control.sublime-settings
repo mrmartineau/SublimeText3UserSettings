@@ -1,5 +1,8 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -20,6 +23,7 @@
 		"Color Highlighter",
 		"CSS3_Syntax",
 		"CSScomb",
+		"dired",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"EasyMotion",
@@ -27,6 +31,7 @@
 		"Emmet",
 		"Emmet Css Snippets",
 		"File Navigator",
+		"FileBrowser",
 		"FindKeyConflicts",
 		"FuzzyFilePath",
 		"Git Config",
@@ -50,9 +55,11 @@
 		"Modific",
 		"MoveText",
 		"MultiEditUtils",
+		"Node Completions",
 		"OmniSharp",
 		"Open-Include",
 		"Origami",
+		"Package Control",
 		"PowerCursors",
 		"Preference Helper",
 		"Razor",
@@ -75,6 +82,7 @@
 		"SublimeLinter-xmllint",
 		"SVG-Snippets",
 		"Syntax Highlighting for Sass",
+		"Theme - DC",
 		"Theme - Phoenix",
 		"Theme - Soda",
 		"Themr",
