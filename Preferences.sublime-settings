@@ -81,11 +81,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Origami",
-		"JavaScript",
+		"List stylesheet variables",
+		"Simple Project Manager",
+		"Markdown",
 		"Handlebars",
-		"Markdown"
+		"LiveStyle",
+		"Vintage",
+		"Wind",
+		"Open URL",
+		"JavaScript",
+		"Origami",
+		"LESS"
 	],
 	"indent_guide_options":
 	[
@@ -114,5 +120,5 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "false"
 }
