@@ -1,9 +1,7 @@
 {
 	"auto_upgrade_last_run": null,
-	"installed_dependencies":
+	"in_process_packages":
 	[
-		"0_package_control_loader",
-		"bz2"
 	],
 	"installed_packages":
 	[
@@ -35,8 +33,10 @@
 		"File Navigator",
 		"FileBrowser",
 		"FindKeyConflicts",
+		"Flow",
 		"FuzzyFilePath",
 		"Git Config",
+		"GitSavvy",
 		"Handlebars",
 		"Highlight",
 		"Idiomatic-CSS-Comments-Snippets",
@@ -49,7 +49,6 @@
 		"JS Snippets",
 		"Jump Along Indent",
 		"Keymaps",
-		"Kulture",
 		"Liquid",
 		"MacTerminal",
 		"Markdown Extended",

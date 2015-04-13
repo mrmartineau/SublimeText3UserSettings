@@ -75,22 +75,24 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"List stylesheet variables",
-		"Simple Project Manager",
-		"Markdown",
+		"Flow",
+		"Vintage",
 		"Handlebars",
 		"LiveStyle",
-		"Vintage",
-		"Wind",
-		"Open URL",
-		"JavaScript",
 		"Origami",
+		"List stylesheet variables",
+		"Markdown",
+		"Open URL",
+		"Simple Project Manager",
+		"JavaScript",
+		"JavaScript Patterns",
+		"Wind",
 		"LESS"
 	],
 	"indent_guide_options":
