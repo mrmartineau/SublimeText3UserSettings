@@ -81,21 +81,21 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Handlebars",
-		"LESS",
-		"LiveStyle",
-		"JavaScript Patterns",
 		"Open URL",
-		"Vintage",
-		"Flow",
-		"List stylesheet variables",
-		"Markdown",
-		"Wind",
-		"Origami",
+		"JavaScript Patterns",
 		"Simple Project Manager",
-		"JavaScript",
+		"Wind",
+		"Better JavaScript",
 		"JavaScriptNext - ES6 Syntax",
-		"Better JavaScript"
+		"Markdown",
+		"Vintage",
+		"LiveStyle",
+		"LESS",
+		"Handlebars",
+		"Origami",
+		"JavaScript",
+		"List stylesheet variables",
+		"Flow"
 	],
 	"indent_guide_options":
 	[
@@ -121,7 +121,7 @@
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "DC_3_GW.sublime-theme",
+	"theme": "Solarized Space Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
