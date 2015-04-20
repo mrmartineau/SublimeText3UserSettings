@@ -29,7 +29,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/InspiredGitHub (SL).tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
