@@ -29,7 +29,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized JU (dark) (SL).tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -81,19 +81,21 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Flow",
-		"Vintage",
-		"Handlebars",
-		"LiveStyle",
-		"Origami",
-		"List stylesheet variables",
-		"Markdown",
 		"Open URL",
-		"Simple Project Manager",
-		"JavaScript",
 		"JavaScript Patterns",
+		"Simple Project Manager",
 		"Wind",
-		"LESS"
+		"Better JavaScript",
+		"JavaScriptNext - ES6 Syntax",
+		"Markdown",
+		"Vintage",
+		"LiveStyle",
+		"LESS",
+		"Handlebars",
+		"Origami",
+		"JavaScript",
+		"List stylesheet variables",
+		"Flow"
 	],
 	"indent_guide_options":
 	[
@@ -119,7 +121,7 @@
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "DC_3_GW.sublime-theme",
+	"theme": "Solarized Space Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
