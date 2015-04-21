@@ -122,5 +122,5 @@
 	"theme": "DC_3_GW.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+	"word_wrap": "true"
 }
