@@ -29,7 +29,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Solarized JU (dark) (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night-Eighties (SL).tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -75,7 +75,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -152,8 +152,8 @@
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Solarized Space Dark.sublime-theme",
+	"theme": "DC_3_GW.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+	"word_wrap": "true"
 }
