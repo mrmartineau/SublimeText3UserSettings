@@ -7,3 +7,4 @@ Package Control.merged-ca-bundle
 Package Control.cache/
 Color Highlighter
 bh_unicode_properties.cache
+SublimeLinter/*.tmTheme
