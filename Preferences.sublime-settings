@@ -24,7 +24,8 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_face": "InputMono",
 	"font_size": 13,
@@ -32,13 +33,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SCSS",
 		"Vintage",
-		"JavaScript Ultimate"
+		"JavaScript Ultimate",
+		"SCSS"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
+	"save_on_focus_lost": true,
 	"tab_size": 2,
 	"theme": "Seti_orig.sublime-theme",
 	"trim_automatic_white_space": true,
