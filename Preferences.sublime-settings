@@ -1,6 +1,7 @@
 {
-	"Seti_SB_bright": true,
+	"Seti_SB_bright": false,
 	"Seti_in_4_a_treat": true,
+	"Seti_rainbow": true,
 	"Seti_sb_tree_miny": true,
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
@@ -33,9 +34,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"SCSS",
 		"JavaScript Ultimate",
-		"SCSS"
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
