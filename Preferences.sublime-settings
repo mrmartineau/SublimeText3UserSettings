@@ -5,6 +5,7 @@
 	"Seti_sb_tree_miny": true,
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
+	"auto_complete_cycle": true,
 	"auto_id_class": true,
 	"auto_indent": true,
 	"bold_folder_labels": true,
@@ -19,14 +20,14 @@
 	"draw_white_space": "all",
 	"find_selected_text": true,
 	"fold_buttons": true,
+	"file_exclude_patterns": ["node_modules/*", "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
 	"folder_exclude_patterns":
 	[
 		".sass-cache",
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules"
+		"CVS"
 	],
 	"font_face": "InputMono",
 	"font_size": 13,
@@ -34,15 +35,18 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeLinter-contrib-eslint",
 		"SCSS",
-		"JavaScript Ultimate",
-		"Vintage"
+		"Vintage",
+		"SCSS Snippets"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
+	"tern_argument_completion": true,
+	"tern_argument_hints": true,
 	"theme": "Seti_orig.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
