@@ -14,15 +14,38 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
 	"find_selected_text": true,
 	"fold_buttons": true,
-	"file_exclude_patterns": ["node_modules/*", "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
 	"folder_exclude_patterns":
 	[
+		"node_modules/**/node_modules",
 		".sass-cache",
 		".svn",
 		".git",
@@ -30,15 +53,15 @@
 		"CVS"
 	],
 	"font_face": "InputMono",
-	"font_size": 13,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SCSS Snippets",
 		"SublimeLinter-contrib-eslint",
 		"SCSS",
-		"Vintage",
-		"SCSS Snippets"
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
@@ -46,7 +69,7 @@
 	"save_on_focus_lost": true,
 	"tab_size": 2,
 	"tern_argument_completion": true,
-	"tern_argument_hints": true,
+	"tern_argument_hints": false,
 	"theme": "Seti_orig.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
