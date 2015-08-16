@@ -20,14 +20,16 @@
 		"HTML Mustache",
 		"Inc-Dec-Value",
 		"JavaScript & NodeJS Snippets",
-		"JavaScript Ultimate",
 		"jQuery",
 		"JSCS-Formatter",
 		"Kickoff Snippets",
 		"Modific",
 		"MoveText",
 		"NodeRequirer",
+		"One Dark Color Scheme",
 		"Package Control",
+		"Razor",
+		"SASS Snippets",
 		"Schemr",
 		"SCSS",
 		"SCSS Snippets",
@@ -36,6 +38,7 @@
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jscs",
@@ -45,6 +48,7 @@
 		"SublimeLinter-xmllint",
 		"Syntax Highlighting for Sass",
 		"tern_for_sublime",
-		"Themr"
+		"Themr",
+		"TodoReview"
 	]
 }
