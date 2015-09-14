@@ -2,7 +2,7 @@
 	"user":
 	{
 		"debug": false,
-		"delay": 0.25,
+		"delay": 0.5,
 		"error_color": "D02000",
 		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
 		"gutter_theme_excludes":
@@ -117,7 +117,7 @@
 				]
 			}
 		},
-		"mark_style": "outline",
+		"mark_style": "stippled underline",
 		"no_column_highlights_line": false,
 		"passive_warnings": false,
 		"paths":
