@@ -14,7 +14,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -58,18 +58,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SCSS Snippets",
-		"SublimeLinter-contrib-eslint",
+		"Vintage",
 		"SCSS",
-		"Vintage"
+		"SCSS Snippets",
+		"SublimeLinter-contrib-eslint"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"tern_argument_completion": true,
-	"tern_argument_hints": false,
 	"theme": "Seti_orig.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
