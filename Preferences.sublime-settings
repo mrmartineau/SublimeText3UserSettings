@@ -6,6 +6,7 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_complete_cycle": true,
+	"auto_complete_delay": 50,
 	"auto_id_class": true,
 	"auto_indent": true,
 	"bold_folder_labels": true,
@@ -30,20 +31,23 @@
 		"CVS"
 	],
 	"font_face": "InputMono",
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"jQuery",
 		"SCSS",
 		"SCSS Snippets",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-contrib-eslint",
+		"tern_for_sublime",
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"save_on_focus_lost": true,
+	"tab_completion": false,
 	"tab_size": 2,
 	"theme": "Seti_orig.sublime-theme",
 	"trim_automatic_white_space": true,
