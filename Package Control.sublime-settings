@@ -18,6 +18,7 @@
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
+		"Emoji",
 		"HTML Mustache",
 		"Inc-Dec-Value",
 		"Jade",
@@ -53,6 +54,7 @@
 		"Syntax Highlighting for Sass",
 		"tern_for_sublime",
 		"Themr",
-		"TodoReview"
+		"TodoReview",
+		"TypeScript"
 	]
 }
