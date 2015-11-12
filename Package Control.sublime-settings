@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -24,6 +25,7 @@
 		"jQuery",
 		"JSCS-Formatter",
 		"Kickoff Snippets",
+		"Material Theme",
 		"Modific",
 		"MoveText",
 		"NodeRequirer",

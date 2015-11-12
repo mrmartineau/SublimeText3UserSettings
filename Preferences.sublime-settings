@@ -35,10 +35,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"SCSS",
 		"SCSS Snippets",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-contrib-eslint",
+		"tern_for_sublime",
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
