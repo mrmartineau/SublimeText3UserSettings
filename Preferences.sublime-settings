@@ -23,7 +23,7 @@
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
-		"node_modules/**/node_modules",
+		"node_modules",
 		".sass-cache",
 		".svn",
 		".git",
@@ -40,6 +40,7 @@
 		"SCSS",
 		"SCSS Snippets",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-scss-lint",
 		"tern_for_sublime",
 		"Vintage"
 	],

@@ -55,7 +55,7 @@
 			},
 			"jscs":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
@@ -85,6 +85,16 @@
 				"strict": true
 			},
 			"php":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"sass":
 			{
 				"@disable": false,
 				"args":
