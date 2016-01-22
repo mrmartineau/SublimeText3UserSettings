@@ -15,7 +15,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic_Next (SL).tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -47,6 +47,10 @@
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
+	"rulers":
+	[
+		80
+	],
 	"save_on_focus_lost": true,
 	"tab_completion": false,
 	"tab_size": 2,
