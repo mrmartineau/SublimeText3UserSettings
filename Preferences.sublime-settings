@@ -31,21 +31,52 @@
 		"CVS"
 	],
 	"font_face": "InputMono",
-	"font_size": 15,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"jQuery",
+		"ActionScript",
+		"Alignment",
+		"AppleScript",
+		"Base16 Color Schemes",
+		"C#",
+		"C++",
+		"Clojure",
+		"CSScomb",
+		"D",
+		"Go",
+		"Graphviz",
+		"Groovy",
+		"Haskell",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Matlab",
+		"NodeRequirer",
+		"Objective-C",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"Python",
+		"PyV8",
+		"R",
+		"Rails",
+		"Scala",
+		"Schema Validator",
 		"SCSS",
 		"SCSS Snippets",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-contrib-scss-lint",
+		"TCL",
 		"tern_for_sublime",
+		"TypeScript",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"indent_to_bracket": true,
-	"indent_guide_options": [ "draw_normal", "draw_active" ],
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"material_theme_contrast_mode": true,
@@ -54,7 +85,8 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		80
+		80,
+		100
 	],
 	"save_on_focus_lost": true,
 	"tab_completion": false,

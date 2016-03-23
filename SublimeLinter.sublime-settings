@@ -32,7 +32,7 @@
 			},
 			"csslint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
@@ -55,7 +55,7 @@
 			},
 			"jscs":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -116,6 +116,16 @@
 				],
 				"include-linter": ""
 			},
+			"stylelint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
 			"xmllint":
 			{
 				"@disable": false,
@@ -127,7 +137,7 @@
 				]
 			}
 		},
-		"mark_style": "outline",
+		"mark_style": "solid underline",
 		"no_column_highlights_line": false,
 		"passive_warnings": false,
 		"paths":
