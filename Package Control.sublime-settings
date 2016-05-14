@@ -7,6 +7,7 @@
 	[
 		"Alignment",
 		"AlignTab",
+		"AutoFileName",
 		"Babel",
 		"Babel Snippets",
 		"Base16 Color Schemes",
@@ -28,11 +29,11 @@
 		"JavaScript & NodeJS Snippets",
 		"JavaScript Completions",
 		"jQuery",
-		"JSCS-Formatter",
 		"Kickoff Snippets",
 		"Material Theme",
 		"Material Theme - Appbar",
 		"Materialize",
+		"Materialize-Appbar",
 		"Modific",
 		"MoveText",
 		"NodeRequirer",
@@ -52,17 +53,13 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-sass-lint",
-		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
-		"SublimeLinter-jscs",
-		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-xmllint",
 		"Syntax Highlighting for Sass",
 		"tern_for_sublime",
 		"Themr",
-		"TodoReview",
-		"TypeScript"
+		"TodoReview"
 	]
 }
