@@ -99,10 +99,6 @@
 	"indent_to_bracket": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
-	"material_theme_appbar_indigo": false,
-	"material_theme_contrast_mode": true,
-	"material_theme_panel_separator": true,
-	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
