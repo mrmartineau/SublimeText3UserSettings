@@ -59,7 +59,10 @@
 		"SublimeLinter-xmllint",
 		"Syntax Highlighting for Sass",
 		"tern_for_sublime",
+		"Theme - Otto",
 		"Themr",
-		"TodoReview"
+		"TodoReview",
+		"ToggleQuotes",
+		"TypeScript"
 	]
 }
