@@ -1,3 +1,8 @@
 {
-	"import": false
+	"import": true,
+	"quotes": "single",
+	"alias": {
+		// <module name>: <variable name>
+		"lodash": "_"
+	}
 }
