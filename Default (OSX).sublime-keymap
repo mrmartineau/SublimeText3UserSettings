@@ -140,5 +140,11 @@
 				"key": "is_abbreviation"
 			}
 		]
+	},
+
+	{
+		"keys": ["f4"],
+		"command": "dired",
+		"args": { "immediate": true }
 	}
 ]
