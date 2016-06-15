@@ -32,7 +32,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic_Next (SL).tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -48,7 +48,7 @@
 		"CVS"
 	],
 	"font_face": "InputMono",
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -72,6 +72,7 @@
 		"LaTeX",
 		"Lisp",
 		"Lua",
+		"Material Theme",
 		"Material Theme - Appbar",
 		"Matlab",
 		"Objective-C",
