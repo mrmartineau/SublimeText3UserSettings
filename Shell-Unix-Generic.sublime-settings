@@ -1,0 +1,10 @@
+// These settings override both User and Default settings for the Shell-Unix-Generic syntax
+{
+	"extensions":
+	[
+		"Fastfile",
+		"Gymfile",
+		"Appfile",
+		"Matchfile"
+	]
+}

@@ -1,9 +1,9 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
@@ -28,7 +28,7 @@
                 "warnings": ""
             },
             "eslint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
@@ -39,12 +39,12 @@
                 "strict": true
             },
             "php": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
             "sass": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
@@ -61,12 +61,19 @@
                 "excludes": []
             },
             "xmllint": {
+                "@disable": true,
+                "args": [],
+                "excludes": []
+            },
+            "xo": {
                 "@disable": false,
                 "args": [],
+                "disable_if_not_dependency": true,
+                "enable_if_dependency": true,
                 "excludes": []
             }
         },
-        "mark_style": "solid underline",
+        "mark_style": "squiggly underline",
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
