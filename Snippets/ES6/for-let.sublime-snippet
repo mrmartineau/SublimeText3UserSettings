@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[for (let value of iterable) {
+  // do something
+}]]></content>
+	<tabTrigger>forlet</tabTrigger>
+	<description>ES6 for-let</description>
+	<scope>source.js</scope>
+</snippet>

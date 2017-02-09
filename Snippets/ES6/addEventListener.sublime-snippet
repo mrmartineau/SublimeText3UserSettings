@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[${1:document}.addEventListener('${2:click}', e => {
+	$0
+});]]></content>
+	<tabTrigger>ae</tabTrigger>
+	<description>ES6 addEventListener</description>
+	<scope>source.js</scope>
+</snippet>

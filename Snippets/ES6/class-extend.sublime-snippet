@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[class ${1:name} extends ${2:other} {
+  constructor() {
+    super();
+    $0
+  }
+}]]></content>
+	<tabTrigger>class</tabTrigger>
+	<description>ES6 class extend</description>
+	<scope>source.js</scope>
+</snippet>
