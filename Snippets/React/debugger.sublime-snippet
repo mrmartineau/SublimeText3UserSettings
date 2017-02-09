@@ -2,9 +2,7 @@
 	<content><![CDATA[
 <pre>{JSON.stringify(this.state, null, 2)}</pre>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>pre</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>meta.group.braces.round.js</scope>
 	<description>React debugger</description>
 </snippet>
