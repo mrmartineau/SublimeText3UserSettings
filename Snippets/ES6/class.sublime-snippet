@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[class ${1:name} {
+  constructor(element) {
+    this.element = element;
+    $0
+  }
+
+  method() {
+
+  }
+}]]></content>
+	<tabTrigger>class</tabTrigger>
+	<description>ES6 class</description>
+	<scope>source.js</scope>
+</snippet>

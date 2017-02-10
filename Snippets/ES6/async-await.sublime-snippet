@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[async function ${1:name}() {
+  ${2:var data = await getJSON();}
+  console.log(data);
+}]]></content>
+	<tabTrigger>asyncawait</tabTrigger>
+	<description>ES6 Async Await</description>
+	<scope>source.js</scope>
+</snippet>
